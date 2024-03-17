@@ -1,6 +1,6 @@
 {
   "name": "suhyun-ui",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "Suhyun UI",
   "keywords": [
     "react",
@@ -17,14 +17,14 @@
     "type": "git",
     "url": "https://github.com/sasha1107/sVWcwhU5mX6crfI5Vd2dC4qchyTqxV8URinzt25XqVh"
   },
-  "main": "dist/lib/index.js",
-  "types": "dist/lib/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "homepage": "https://65dee46263bc0bdd43fcc552-kzcwuazahx.chromatic.com/?path=/docs/configure-your-project--docs",
   "dependencies": {
-    "tailwind-merge": "^2.2.2",
-    "tailwindcss": "^3.4.1"
+    "tailwind-merge": "^2.2.2"
   },
   "devDependencies": {
+    "tailwindcss": "^3.4.1",
     "@types/node": "^16.18.89",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",

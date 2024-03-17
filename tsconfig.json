@@ -18,6 +18,6 @@
     "jsx": "react-jsx",
     "outDir": "./dist"
   },
-  "include": ["./lib/**/*.ts", "./lib/**/*.tsx", "tailwind.config.js"],
+  "include": ["./lib/**/*.ts", "./lib/**/*.tsx"],
   "exclude": ["./lib/storybook/"]
 }
