@@ -1,6 +1,6 @@
 {
   "name": "suhyun-ui",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Suhyun UI",
   "keywords": [
     "react",
@@ -34,7 +34,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "build:tailwind": "npx tailwindcss -o dist/lib/output.css -c tailwind.config.js",
+    "build:tailwind": "npx tailwindcss -o dist/lib/output.css -c tailwind.config.js --minify",
     "publish:npm": "npm run build && npm run build:tailwind && npm publish"
   },
   "eslintConfig": {
